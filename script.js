@@ -1,4 +1,4 @@
-  var slideIndex = 0;
+var slideIndex = 0;
 showSlides();
 
 function showSlides() {
@@ -22,11 +22,7 @@ function currentSlide(n) {
   slideIndex = n;
   showSlides();
 }
-</script>
 
-
-<!-- JavaScript for Review Submission -->
-<script>
 function submitReview() {
 var review = document.getElementById('review').value;
 var name = document.getElementById('name').value;
